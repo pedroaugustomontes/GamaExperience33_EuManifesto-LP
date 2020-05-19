@@ -1,11 +1,31 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/helvetica-neue.ttf');
+}
+@font-face {
+  font-family: 'Helvetica Neue Bold';
+  src: url('/fonts/helvetica-neue-bold.ttf');
+}
+@font-face {
+  font-family: 'Aller Bold';
+  src: url('/fonts/aller-bold.ttf');
+}
+
 body, h1, h2, ul, li, a, p {
   padding: 0px;
   margin: 0px;
+  font-family: 'Helvetica Neue';
 }
 
 body {
-  
-  color: #222222;
+  color: #222222; 
+}
+
+.foda {
+  display: block;
+  background: url('/img/background.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 100%;
 }
 
 ul {
@@ -41,5 +61,95 @@ img {
 }
 .menu-nav a {
   display: block;
-  padding: 10px;
+  padding: 10px 15px;
 }
+
+.bg-main {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  /* flex-wrap: wrap; */
+  opacity: 1;
+}
+
+/* INFO */
+.info h1 {
+  font-size: 2.5em;
+  max-width: 500px;
+  margin-top: 60px;
+  color: #ffffff;
+  font-family: 'Aller Bold';
+}
+.info p {
+  margin-top: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.125em;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+
+
+
+/* SUBSCRIBE */
+.subscribe {
+  display: block;
+  width: 464px;
+  height: 507px;
+  background: #ffffff;
+  box-shadow: 9px 9px 9px #00000029;
+  border-radius: 24px;
+  opacity: 1;
+  margin: 60px auto;
+  /* padding-top: 55px; */
+}
+.subscribe h2 {
+  font-family: 'Helvetica Neue';
+  text-transform: uppercase;
+  font-size: 1.25em;
+  text-align: center;
+  margin: 55px 0 44px 0;
+  color: #461B51;
+}
+.subscribe form {
+  text-align: center;
+
+}
+.subscribe input {
+  width: 380px;
+  height: 57px;
+  border: 3px solid #461B51;
+  padding-left: 10px;
+  border-radius: 4px;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+.subscribe input::placeholder {
+  font-family: 'Helvetica Neue';
+  font-size: 1.25em;
+  line-height: 1.5em;
+  letter-spacing: 0px;
+  color: #461B51;
+  opacity: 1;
+  font-weight: bold;
+}
+
+.subscribe button {
+  border: 1px solid #461B51;
+  border-radius: 4px;
+  opacity: 1;
+  width: 380px;
+  padding: 17px 0;
+  color: #ffffff;
+  background: #461B51;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  font-family: inherit;
+}
+
+
+
+
+
+
