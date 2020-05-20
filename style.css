@@ -24,6 +24,14 @@ body, h1, h2, ul, li, a, p {
 body {
   color: #222222;
   max-width: 100vw;
+  color: #222222; 
+}
+
+.foda {
+  display: block;
+  background: url('/img/background.svg') 0% 0% no-repeat padding-box;
+  opacity: 1;
+  background-position: cover;
 }
 
 ul {
@@ -76,6 +84,8 @@ img {
 
 .info {
   width: 55%;
+  flex-wrap: wrap;
+  opacity: 1;
 }
 
 /* INFO */
@@ -155,12 +165,17 @@ img {
 }
 .subscribe input {
   width: 100%;
+
+/*   max-width: 380px;
+  width: calc(380px - 20%); */
+
   height: 57px;
   border: 3px solid #461B51;
   padding-left: 10px;
   border-radius: 4px;
   opacity: 1;
   margin-bottom: 20px;
+  flex: 1;
 }
 .subscribe input::placeholder {
   font-family: 'Helvetica Neue';
@@ -177,10 +192,78 @@ img {
   border-radius: 4px;
   opacity: 1;
   width: 100%;
+=======
+/*   width: calc(280px - 20%); */
   padding: 17px 0;
   color: #ffffff;
   background: #461B51;
   font-size: 1.25em;
   line-height: 1.5em;
   font-family: inherit;
+}
+
+.conteudo {
+  max-width: 1160px;
+  margin: 60px auto;
+  flex-wrap: wrap;
+}
+
+.conteudo div {
+  display: flex;
+}
+.conteudo h2 {
+  margin-left: 15px;
+  font-size: 1.5em;
+  font-family: 'Helvetica Neue Bold';
+  color: #461B51;
+}
+
+.conteudo p {
+  margin: 30px auto;
+  font-weight: 1.125em;
+  color: #461B51;
+}
+
+.participacoes {
+  /* justify-content: center; */
+  margin: 60px auto;
+}
+
+.quadrado {
+  width: 220px;
+  height: 220px;
+  background: linear-gradient(#FF4D75, #D5499F, #9B44D9, #8542F1);
+  border-radius: 15px;
+}
+.quadrado {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  margin: 15px;
+  flex: 1 1 220px;
+}
+.quadrado p {
+  color: white;
+  text-align: center;
+  max-width: 200px;
+  font-size: 0.875em;
+  margin: 0 auto;
+}
+.quadrado h3 {
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+.quadrado img {
+  padding-right: 8px;
+}
+
+.quadrado a {
+  /* display: inline-block; */
+  margin: 25px auto;
+  display: flex;
+  margin-left: 20px;
+  outline: none;
+  color: white;
 }
