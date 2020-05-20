@@ -4,7 +4,6 @@
   <title>FlexBlog</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./style.css">
   
   <!-- Hotjar Tracking Code for eumanifesto.online -->
@@ -39,7 +38,17 @@
   
 </head>
 <body>
-
+  <!-- Janela pop-up -->
+  <div class="container">
+    <div id="popup" class="popup__wrapper">
+      <div class="popup__container">
+        <button class="exit" onclick=exitPopUp()>X</button>
+        <h1 class="popup__title">Obrigado pela visita!</h1>
+        <p> Nossa missão é abraçar você. Obrigado por se inscrever no nosso Webinar! Fale sobre nós com seus amigos, viu? :-D
+        </p>
+      </div>
+    </div>
+  </div>
   <header class="menu">
     <div class="menu-logo">
       <a href="#"><img src="./img/logo.svg" alt="Logo"></a>
@@ -118,7 +127,34 @@
     </div>
   </div>
   </section>
+  <section class="patrocinadores">
+    <div class="patrocinadores__title"> 
+      <img src="img/medalha.svg" alt="medalha de condecoração">
+      <h5>PATROCINADORES</h5>
+    </div>
+    <div class="patrocinadores__logo"> 
+      <div class="patrocinadores__container">
+        <div class="logo_container">
+          <img src="img/logoComDono.png" alt="Logo da ComDono">
+        </div>
+        <div class="patrocinadores__dados">
+          <p>ComDono</p>
+          <a href="http://https://comdono.com/">comdono.com</a>
+        </div>
+      </div>
+      <div class="patrocinadores__container">
+        <div class="logo_container">
+          <img class="logo_canalPeca" src="img/logoCanalPeca.png" alt="Logo da Canal da Peça">
+        </div>
+        <div class="patrocinadores__dados">
+          <p>Canal da Peça</p>
+          <a href="https://www.canaldapeca.com.br">www.canaldapeca.com.br</a>
+        </div>
+      </div>
+    </div>
+    
+  </section>
 
-
+  <script src="scripts/modal.js"></script>
 </body>
 </html>

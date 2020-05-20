@@ -11,7 +11,7 @@
   src: url('/fonts/aller-bold.ttf');
 }
 
-body, h1, h2, ul, li, a, p {
+body, h1, h2, h5 ul, li, a, p {
   padding: 0px;
   margin: 0px;
   font-family: 'Helvetica Neue';
@@ -149,7 +149,55 @@ img {
 }
 
 
+.patrocinadores__title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6% 0%;
+  font-size: 1.8rem;
+}
 
+.patrocinadores__title img{
+  padding-right: 10px;
+}
+
+.patrocinadores__container{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 10%;
+  padding-bottom: 6px;
+}
+
+.patrocinadores__dados{
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  background: transparent linear-gradient(180deg, #FF4D75 0%, #D5499F 31%, #9B44D9 78%, #8542F1 100%) 0% 0% no-repeat padding-box;
+  width: 242px;
+  padding: 1.2% 0% 1.3% 1%;
+  color: #fff;
+}
+
+.patrocinadores__dados a{
+  color: #fff;
+}
+
+.patrocinadores__dados a:hover{
+  color: rgb(24, 11, 141);
+}
+
+.logo_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+}
+.logo_canalPeca{
+  width: 80%;
+}
 
 
 
