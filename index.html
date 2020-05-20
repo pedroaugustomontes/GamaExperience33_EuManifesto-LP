@@ -56,67 +56,70 @@
 
   <section class="foda">
     <div class="bg-main">
-    <div class="info">
-      <h1>mulheres, mundo digital e autoconhecimento hoje</h1>
-      <p>Uma transmissão ao vivo que vai…</p>
+      <div class="info">
+        <h1>mulheres, mundo digital e autoconhecimento hoje</h1>
+        <p>Uma transmissão ao vivo que vai…</p>
+      </div>
+
+      <div class="subscribe">
+        <h2>Inscreva-se</h2>
+        <form action="">
+
+          <div id="inputName" class="form-group">
+            <input
+              name="name"
+              type="text"
+              placeholder="Nome"
+              pattern="^\D{2,}\s[\D\s]{2,}$"
+              title="Campo para seu nome completo"
+              class="form-control form-control-lg"
+              required
+              aria-label="Digite seu nome completo"
+              aria-labelledby="inputName download-tool"                      
+            />
+          </div>
+
+          <div id="inputEmail" class="form-group">
+            <input
+              name="email"
+              type="email"
+              placeholder="Email"
+              title="Campo para um email válido"
+              class="form-control form-control-lg"
+              required
+              aria-label="Campo para um email válido"
+              aria-labelledby="inputEmail download-tool"                      
+            />
+          </div>
+          
+          <div id="inputEmail" class="form-group">
+            <input
+              name="telefone"
+              type="tel"
+              placeholder="Telefone"
+              title="Campo para um email válido"
+              class="form-control form-control-lg"
+              required
+              aria-label="Campo para um email válido"
+              aria-labelledby="inputEmail download-tool"                      
+            />
+          </div>
+
+          <input
+            name="redirectTo"
+            type="hidden"
+            value="https://lifeoneline.com.br/thankyou"
+          />
+
+          <!-- <input name="debugMode" type="hidden" value="true"/> -->
+
+          <button title="Envia formulário para receber EBOOK" aria-labelledby="download-tool" type="submit" class="btn btn-lg btn-block button-submit mb-4" >Enviar</button>
+
+        </form>
+      </div>
+
+
     </div>
-    <div class="subscribe">
-      <h2>Inscreva-se</h2>
-      <form action="">
-
-        <div id="inputName" class="form-group">
-          <input
-            name="name"
-            type="text"
-            placeholder="Nome"
-            pattern="^\D{2,}\s[\D\s]{2,}$"
-            title="Campo para seu nome completo"
-            class="form-control form-control-lg"
-            required
-            aria-label="Digite seu nome completo"
-            aria-labelledby="inputName download-tool"                      
-          />
-        </div>
-
-        <div id="inputEmail" class="form-group">
-          <input
-            name="email"
-            type="email"
-            placeholder="Email"
-            title="Campo para um email válido"
-            class="form-control form-control-lg"
-            required
-            aria-label="Campo para um email válido"
-            aria-labelledby="inputEmail download-tool"                      
-          />
-        </div>
-        
-        <div id="inputEmail" class="form-group">
-          <input
-            name="telefone"
-            type="tel"
-            placeholder="Telefone"
-            title="Campo para um email válido"
-            class="form-control form-control-lg"
-            required
-            aria-label="Campo para um email válido"
-            aria-labelledby="inputEmail download-tool"                      
-          />
-        </div>
-
-        <input
-          name="redirectTo"
-          type="hidden"
-          value="https://lifeoneline.com.br/thankyou"
-        />
-
-        <!-- <input name="debugMode" type="hidden" value="true"/> -->
-
-        <button title="Envia formulário para receber EBOOK" aria-labelledby="download-tool" type="submit" class="btn btn-lg btn-block button-submit mb-4" >Enviar</button>
-
-      </form>
-    </div>
-  </div>
   </section>
 
   <section class="conteudo">

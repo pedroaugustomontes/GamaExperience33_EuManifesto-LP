@@ -11,6 +11,10 @@
   src: url('/fonts/aller-bold.ttf');
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body, h1, h2, ul, li, a, p {
   padding: 0px;
   margin: 0px;
@@ -18,6 +22,8 @@ body, h1, h2, ul, li, a, p {
 }
 
 body {
+  color: #222222;
+  max-width: 100vw;
   color: #222222; 
 }
 
@@ -26,8 +32,6 @@ body {
   background: url('/img/background.svg') 0% 0% no-repeat padding-box;
   opacity: 1;
   background-position: cover;
-
-  /* background-position: top; */
 }
 
 ul {
@@ -55,7 +59,8 @@ img {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  padding: 15px 0;
+  padding: 15px 3vw;
+  
 }
 .menu-nav ul {
   display: flex;
@@ -66,10 +71,19 @@ img {
   padding: 10px 15px;
 }
 
+.foda {
+  background: url('/img/background.svg') 0% 0% no-repeat padding-box;
+  padding: 0 5vw;
+}
+
 .bg-main {
   max-width: 1160px;
   margin: 0 auto;
   display: flex;
+}
+
+.info {
+  width: 55%;
   flex-wrap: wrap;
   opacity: 1;
 }
@@ -88,21 +102,56 @@ img {
   font-size: 1.125em;
   letter-spacing: 0px;
   color: #FFFFFF;
-  opacity: 1;
 }
 
 /* SUBSCRIBE */
 .subscribe {
-  display: block;
-  width: 464px;
+  width: 45%;
   height: 507px;
   background: #ffffff;
   box-shadow: 9px 9px 9px #00000029;
   border-radius: 24px;
-  opacity: 1;
-  margin: 60px auto;
+  margin: 60px 100px;
+  padding-left: 3vw;
+  padding-right: 3vw;
   /* padding-top: 55px; */
 }
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+  }
+  .bg-main{
+    flex-direction: column;
+    align-items: center;
+  }
+  .info {
+    width:100%;
+  }
+  .subscribe {
+    width: 100%;
+    max-width: 380px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0 20px
+  }
+ }
+
+@media (min-width: 769px) and (max-width: 992px) { 
+
+  .subscribe {
+    margin-left: 40px;
+    margin-right: 0px;
+  }
+ }
+
+ @media (min-width: 993px) and (max-width: 1200px) { 
+  .subscribe {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+ }
+
 .subscribe h2 {
   font-family: 'Helvetica Neue';
   text-transform: uppercase;
@@ -112,12 +161,14 @@ img {
   color: #461B51;
 }
 .subscribe form {
-  text-align: center;
-
+  width: 100%;
 }
 .subscribe input {
-  max-width: 380px;
-  width: calc(380px - 20%);
+  width: 100%;
+
+/*   max-width: 380px;
+  width: calc(380px - 20%); */
+
   height: 57px;
   border: 3px solid #461B51;
   padding-left: 10px;
@@ -140,7 +191,9 @@ img {
   border: 1px solid #461B51;
   border-radius: 4px;
   opacity: 1;
-  width: calc(280px - 20%);
+  width: 100%;
+=======
+/*   width: calc(280px - 20%); */
   padding: 17px 0;
   color: #ffffff;
   background: #461B51;
