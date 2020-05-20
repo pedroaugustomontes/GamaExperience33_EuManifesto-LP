@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/fonts/helvetica-neue.ttf');
+}
+@font-face {
+  font-family: 'Helvetica Neue Bold';
+  src: url('/fonts/helvetica-neue-bold.ttf');
+}
+
 .overlay {
   position: fixed;
   top: 0;
@@ -22,11 +31,16 @@
   border-radius: 5px;
   width: 30%;
   position: relative;
+  text-align: center;
+  color: #461B51;
+  font-size: 1.5em;
 }
 
 .popup h2 {
   margin-top: 0;
   color: #333;
+  font-family: 'Helvetica Neue Bold';
+
 }
 
 .popup .close {

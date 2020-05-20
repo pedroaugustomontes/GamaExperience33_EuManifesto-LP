@@ -51,7 +51,6 @@ img {
 .menu{
   /* position: relative; */
   margin: 0 auto;
-  
 }
 .menu-nav {
   width: 100%;
@@ -114,6 +113,8 @@ img {
 .info h1:first-child {
   border: 2px solid #fff;
   padding: 15px;
+  max-width: 250px;
+  text-align: center;
 }
 .info p {
   font-family: Arial, Helvetica, sans-serif;
@@ -346,10 +347,15 @@ img {
 .patrocinio-info span {
   font-size: 1em;
   font-family: 'Helvetica Neue Bold';
+  margin-right: 10px;
 }
-.patrocinio-info p {
+
+.patrocinio-info a {
   font-size: 1em;
   font-family: 'Helvetica Neue';
+  outline: none;
+  color: white;
+  cursor: pointer;
 }
 .patrocinadores__logo{
   display: flex;
