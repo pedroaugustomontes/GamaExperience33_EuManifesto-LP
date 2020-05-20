@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Aller Bold';
+    src: url('/fonts/aller-bold.ttf');
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.topo_thankyou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent linear-gradient(180deg, #FF4D75 0%, #D5499F 31%, #9B44D9 78%, #8542F1 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    color: #fff;
+    padding: 40px 0;
+    font-family: 'Aller Bold';
+    font-size: 1.6rem;
+}
+
+.topo_thankyou img{
+    padding-right: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.logo img{
+    width: 50%;
+}
+
+.text-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #080808;
+    font-family: 'Aller Bold';
+    font-size: 1.5rem;
+}
+
+.text-main p{
+    width: 58vw;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px){
+    .text-main{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .topo_thankyou{
+        font-size: 1.2em;
+    }
+
+    .logo{
+        padding: 40px 0;
+    }
+
+    .text-main{
+        font-size: 1rem;
+    }
+}
