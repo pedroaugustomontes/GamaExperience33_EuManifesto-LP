@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/popup.css">
+  
   <link rel="stylesheet" type="text/css" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/countdown.css">
   
   <!-- Hotjar Tracking Code for eumanifesto.online -->
   <script>
@@ -65,9 +67,18 @@
           autoconhecimento</h1>
         <p class="infoFirstParagraph">Data: 20/05</p>
         <p>Hora: 20h</p>
-        <p>Assista Gratuitamente</p>
-          
+        <p>Assista Gratuitamente</p> 
+        <div class="div-countdown">
+          <ul id="countdown" class="countdown">
+              <li><span id="days"    class="countdown_time">00</span><span class="countdown_label">dias</span></li>
+              <li><span id="hours"   class="countdown_time">00</span><span class="countdown_label">horas</span></li>
+              <li><span id="minutes" class="countdown_time">00</span><span class="countdown_label">minutos</span></li>
+              <li><span id="seconds" class="countdown_time">00</span><span class="countdown_label">segundos</span></li>
+          </ul>
       </div>
+      </div>
+ 
+      
 
       <div class="subscribe">
         <h2>Inscreva-se</h2>
@@ -104,8 +115,7 @@
               class="form-control form-control-lg"
               required
               aria-label="Campo para um email válido"
-              aria-labelledby="inputEmail download-tool"                      
-            />
+              aria-labelledby="inputEmail download-tool"/>
           </div>
 
           <input
@@ -119,8 +129,6 @@
 
         </form>
       </div>
-
-
     </div>
   </section>
 
@@ -278,7 +286,7 @@
       <h3>Obrigado pela visita!</h3>
       <a class="close" href="#">&times;</a>
       <div class="content">
-        <p>Nossa missão é abraçar você. Obrigado por se inscrever no nosso Webinar! Fale sobre nós com seus amigos, viu?</p>
+        <p>Nossa missão é abraçar você. Se inscreva e Assista Gratuitamente o nosso Webinar!</p>
     </div>
     <div class="subscribe subscribe-popup">
       <form action="https://online.us18.list-manage.com/subscribe/post" method="POST">
@@ -318,6 +326,8 @@
     </div>
   </div>
   <script src="./assets/js/popup.js"></script>
+  <script src="./assets/js/countdown.js"></script>
+
 
 </body>
 </html>

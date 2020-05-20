@@ -95,6 +95,13 @@ img {
   margin: 0 auto;
   display: flex;
 }
+/* iframe {
+  text-align: center;
+  max-width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  flex: 1 1 500px;
+} */
 
 .info {
   width: 55%;

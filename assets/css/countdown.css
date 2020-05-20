@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Helvetica Neue Bold';
+  src: url('/fonts/helvetica-neue-bold.ttf');
+}
+.contagem{
+  width:300px;
+  height:70px;
+  background-color: #ffffff;
+}
+      
+.numero {
+  min-width: 20px;
+  max-width: 55px;
+  background-color: blue;
+  color: #000000;
+  font-size: 22px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+}
+      
+.legenda{
+  height: 25px;
+  line-height: 10px;
+  font-size:12px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#countdown {
+  list-style: none;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+  
+#countdown li { 
+  display: inline-block; 
+  padding: 0 32px;
+}
+
+.countdown_label {
+  width: 137px;
+  font-family: 'Helvetica Neue Bold';
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #461B51;
+  display: block;
+}
+
+.countdown_time {
+  width: 119px;
+  font-family: Lato;
+  font-size: 96px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #461B51;
+}
