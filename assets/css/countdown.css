@@ -13,7 +13,7 @@
   max-width: 55px;
   background-color: blue;
   color: #000000;
-  font-size: 22px;
+  font-size: 16px;
   margin: 5px;
   text-align: center;
   border-radius: 5px;
@@ -27,17 +27,18 @@
   background-color: #ffffff;
   text-align: center;
 }
-
+.div-countdown{
+  width: 50%;
+}
 #countdown {
   list-style: none;
   padding: 0;
-  display: block;
-  text-align: center;
+  display: flex;
+  padding-top: 20px;
 }
   
 #countdown li { 
   display: inline-block; 
-  padding: 0 32px;
 }
 
 .countdown_label {
