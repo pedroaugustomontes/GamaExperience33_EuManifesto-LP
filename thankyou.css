@@ -44,11 +44,13 @@
     color: #080808;
     font-family: 'Aller Bold';
     font-size: 1.5rem;
+    margin-bottom: 60px;
 }
 
 .text-main p{
     width: 58vw;
     text-align: center;
+    color: #461B51;
 }
 
 @media screen and (max-width: 700px){
@@ -59,7 +61,7 @@
 
 @media screen and (max-width: 400px){
     .topo_thankyou{
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .logo{
