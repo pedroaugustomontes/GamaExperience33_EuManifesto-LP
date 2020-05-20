@@ -15,9 +15,9 @@
     background: transparent linear-gradient(180deg, #FF4D75 0%, #D5499F 31%, #9B44D9 78%, #8542F1 100%) 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     color: #fff;
-    padding: 40px 0;
+    padding: 20px 0;
     font-family: 'Aller Bold';
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .topo_thankyou img{
@@ -28,11 +28,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px 0;
+    padding: 40px 0;
 }
 
 .logo img{
-    width: 50%;
+    width: 34%;
 }
 
 .text-main{
@@ -43,12 +43,12 @@
     flex-direction: column;
     color: #080808;
     font-family: 'Aller Bold';
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 60px;
 }
 
 .text-main p{
-    width: 58vw;
+    width: 82vw;
     text-align: center;
     color: #461B51;
 }
