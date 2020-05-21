@@ -295,6 +295,7 @@ img {
   outline: none;
   color: white;
   display: flex;
+  align-items: center;
 }
 .quadrado a > img {
   margin-right: 5px;
