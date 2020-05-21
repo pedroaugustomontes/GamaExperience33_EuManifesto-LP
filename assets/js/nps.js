@@ -1,15 +1,13 @@
 document.addEventListener('mouseleave', function(){
-    console.log("saida")
     showPopup();
   })
   
   document.addEventListener('touchleave', function(){
-    console.log("saida")
     showPopup();
   }, false)
   
   
-  document.querySelector(".close").addEventListener('click', function() {
+  document.querySelector(".fechar").addEventListener('click', function() {
     closePopup();
   })
   
