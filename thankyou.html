@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/thankyou.css">
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v7.0"></script>
 </head>
 <body>
     <header>
@@ -23,14 +24,23 @@
     </header>
     <main>
         <section class="live">
-            <video width="320" height="240" controls>
-                <source src="https://www.facebook.com/eumanifesto.online/videos/291238862035512/" type="video/mp4">
-            </video>
+            <div id="fb-root"></div>
+            <div class="fb-video video" 
+                data-href="https://www.facebook.com/eumanifesto.online/videos/291238862035512/" 
+                data-show-text="false" 
+                data-width="800">
+                <blockquote cite="https://developers.facebook.com/eumanifesto.online/videos/291238862035512/" 
+                    class="fb-xfbml-parse-ignore">
+                    <a href="https://developers.facebook.com/eumanifesto.online/videos/291238862035512/">Mulheres, Mundo Digital e Autoconhecimento hoje</a>
+                    <p>Debate entre quatro convidadas abordando temas como autoconhecimento, profissão, saúde mental e gestão de tempo.</p>
+                    <a href="https://www.facebook.com/eumanifesto.online/">Eu Manifesto</a> em Quarta-feira, 20 de maio de 2020
+                </blockquote>
+            </div>
             <div>
                 <a href="https://forms.gle/mCGURZUU33LEcqEn6"><h3> Podem nos ajudar respondendo uma pesquisa de 1 minutinho, ao final da nossa live?</h3>
             </div></a>
         </section>    
-        <section>
+        <!-- <section>
             <div class="participacoes">
                 <div class="quadrado">
                   <img src="./img/pessoa1.svg" alt="">
@@ -57,8 +67,20 @@
                   <a href="#"><img src="./img/linkedinIcon.svg" alt="">ci-gontijo</a>
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
 
+    <!--NPS
+  <div class="overlay">
+    <div class="popup">
+      <h3>Obrigado pela visita!</h3>
+      <a class="close" href="#">&times;</a>
+        <div class="content">
+            <p>Sua opnião é muito importante para nós!!! </p>
+            <a href="https://forms.gle/mCGURZUU33LEcqEn6"><h3>só vai levar 1 minutinho</h3></a>
+        </div>
+    </div>
+  <script src="./assets/js/nps.js"></script>
+-->
 </body>
 </html>

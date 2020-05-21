@@ -53,11 +53,10 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 18px;
     padding-bottom: 30px;
 }
 
-.live video{
+.video{
     width: 60%;
     height: auto;
     padding-bottom: 10px;

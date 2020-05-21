@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('/fonts/helvetica-neue.ttf');
+  }
+  @font-face {
+    font-family: 'Helvetica Neue Bold';
+    src: url('/fonts/helvetica-neue-bold.ttf');
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 300ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .visible {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 50%;
+    position: relative;
+    text-align: center;
+    color: #461B51;
+    font-size: 1.5em;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: 'Helvetica Neue Bold';
+  }
+  
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  @media (max-width: 770px) {
+    .popup {
+      width: 50%;
+      padding: 3%;
+    }
+    .content p{
+      font-size: 0.875em;
+    }
+  }
