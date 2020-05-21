@@ -313,10 +313,8 @@ img {
   /* flex: 1 1 350px; */
 }
 .container-patrocinio {
-  width: 500px;
   display: flex;
-  flex-wrap: wrap;
-  flex: 1 1 300px;
+  flex: 0 1 300px;
   margin: 10px 0;
   padding: 0 10px;
 }
@@ -363,7 +361,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 6%;
+  padding-bottom: 5%;
+  padding-top: 3%;
   font-size: 1.8rem;
 }
 
