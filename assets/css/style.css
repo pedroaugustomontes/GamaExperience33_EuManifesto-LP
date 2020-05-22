@@ -417,8 +417,8 @@ img {
 
 .influencer-container {
   max-width: 1160px;
-  margin: 0 auto;
-/*   padding: 0 5vw; */
+  margin: 0 auto 30px auto;
+  /* padding: 0 5vw; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -429,6 +429,13 @@ img {
   flex: 0 0 200px;
   text-align: center;
   padding: 10px;
+  margin-top: 30px;
+}
+.influencer-card h5,
+.influencer-card a {
+  font-size: 1.25em;
+  padding: 10px;
+  color: #461b51;
 }
 .influencer-card img {
   display: unset;
