@@ -418,7 +418,7 @@ img {
 .influencer-container {
   max-width: 1160px;
   margin: 0 auto;
-  padding: 0 5vw;
+/*   padding: 0 5vw; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
