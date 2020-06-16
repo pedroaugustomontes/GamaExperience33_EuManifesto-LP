@@ -6,7 +6,7 @@
 📱 **+55 (34) 99683-8852** <br>
 ✉️ **nerdindiano@gmail.com**
 
-### Hi friend 😃, I hope this project keeps you entertained until the end of the page, thanks for taking an interest 🔰.
+#### Hi friend 😃, I hope this project keeps you entertained until the end of the page, thanks for taking an interest 🔰.
 
 ## 🔔 Sobre o Eu Manifesto
 
