@@ -1,4 +1,4 @@
-# Gama Experience 33 
+# GamaExperience 33 
 ## Grupo 10 Eu Manifesto
 
 #### Hi friend 😃, I hope this project keeps you entertained until the end of the page, thanks for taking an interest 🔰.
