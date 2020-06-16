@@ -1,10 +1,5 @@
-# Gama Experience 33 - Grupo 10 Eu Manifesto
-
-# Pedro Augusto Montes Sales
-
-🏠 I live in city of Uberlândia, Minas Gerais, Brazil <br>
-📱 **+55 (34) 99683-8852** <br>
-✉️ **nerdindiano@gmail.com**
+# Gama Experience 33 
+## Grupo 10 Eu Manifesto
 
 #### Hi friend 😃, I hope this project keeps you entertained until the end of the page, thanks for taking an interest 🔰.
 
