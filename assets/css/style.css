@@ -62,10 +62,10 @@ img {
   width: 100%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  padding: 15px 3vw;
+  /* padding: 15px 3vw; */
   position: fixed;
   top: 0;
   background: #fff;
@@ -80,7 +80,7 @@ img {
 }
 @media (max-width: 390px) {
   .menu-nav a {
-    padding: 10px 10px;
+    padding: 5px 10px;
   }
 }
 
@@ -91,7 +91,7 @@ img {
 }
 @media (max-width: 768px) {
   .foda {
-    margin-top: 222px;
+    margin-top: 22vh;
   }
 }
 
